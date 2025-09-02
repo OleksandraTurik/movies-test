@@ -9,7 +9,6 @@ Frontend (React + Vite) для роботи з Movies API. Підтримує к
 Склонуй репозиторій та перейди в папку проєкту:
 
 git clone
-cd movies-app
 
 Встанови залежності:
 
@@ -35,5 +34,3 @@ docker build -t callalya/test-project-movie:latest .
 Запусти контейнер із runtime змінними:
 
 docker run --name movies -p 3000:3000 -e VITE_API_URL=YOUR_API_URL -e VITE_API_TOKEN=your_token_here callalya/test-project-movie:latest
-
-Застосунок буде доступний на http://localhost:3000
