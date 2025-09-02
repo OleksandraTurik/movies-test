@@ -1,0 +1,39 @@
+.btn {
+  padding: 12px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(23,162,184,0.08);
+}
+
+.btn.primary {
+  background: var(--gradient-primary);
+  color: var(--color-white);
+}
+
+.btn.primary:hover {
+  background: var(--gradient-primary-hover);
+}
+
+.btn.cancel {
+  background: #f3f8fc;
+  color: #1b3a4b;
+  border: 1.5px solid #c7e3f7;
+}
+
+.btn.cancel:hover {
+  background: #e3f1fa;
+  color: var(--color-primary-dark);
+}
+
+.btn.danger {
+  background: var(--gradient-danger);
+  color: var(--color-white);
+}
+
+.btn.danger:hover {
+  background: var(--gradient-danger-hover);
+}

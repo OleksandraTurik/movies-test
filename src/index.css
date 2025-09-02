@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #38b6ff;         
+  --color-primary-dark: #009eea;
+  --color-danger: #dc3545;
+  --color-danger-dark: #a71d2a;
+  --color-secondary: #6c757d;
+  --color-secondary-dark: #495057;
+  --color-white: #fff;
+  --gradient-primary: linear-gradient(90deg, #38b6ff 0%, #009eea 100%);
+  --gradient-primary-hover: linear-gradient(90deg, #009eea 0%, #007bb5 100%);
+  --gradient-danger: linear-gradient(90deg, #dc3545 0%, #b71c2a 100%);
+  --gradient-danger-hover: linear-gradient(90deg, #a71d2a 0%, #dc3545 100%);
+}

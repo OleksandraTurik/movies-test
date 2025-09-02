@@ -1,0 +1,21 @@
+.modal-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.modal-input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  transition: border-color 0.2s;
+}
+
+.modal-input:focus {
+  border-color: #007bff;
+  outline: none;
+}

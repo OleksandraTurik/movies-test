@@ -1,0 +1,28 @@
+.searchbar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.modal-input {
+  flex: 1;
+  min-width: 220px;
+}
+.search-select {
+  width: 100%;
+  padding: 13px 15px;
+  border-radius: 8px;
+  border: 1.5px solid #c7e3f7;
+  font-size: 1.08rem;
+  background: #fafdff;
+  color: #1b3a4b;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.searchbar-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
